@@ -1,0 +1,190 @@
+nav{
+  background-color: grey;
+}
+
+@media only screen and (min-width: 601px){
+  nav .brand-logo {
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (min-height: 601px) and (max-width: 992px){
+  .footer{
+    font-size: 11px;
+    padding-top: 10px;
+  }
+
+  .logo {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-height: 601px){
+  .footer{
+    font-size: 9px;
+    padding-top: 10px;
+  }
+
+  a.brand-logo{
+    margin-left: 10px;
+  }
+}
+
+.linkContact{
+  color: white;
+}
+
+.header {
+  padding-bottom:30px;
+}
+
+.top-banner {
+  background-color:#EDEDED;
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top-banner .contact-details {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top-banner .contact-details i {
+   margin-right:8px;
+   font-weight: bold;
+ }
+
+.top-banner .contact-details a {
+  color: #3D3D3D;
+}
+
+.top-banner .contact-details span:first-child {
+  padding-right:15px;
+  margin-right:15px;
+  border-right: 1px solid #808080;
+
+}
+
+.middle-banner {
+  padding:35px 0px;
+}
+
+.middle-banner .title {
+  margin-bottom: 10px;
+}
+
+.middle-banner .subtitle {
+  font-size: 1.5rem;
+}
+
+.social-media {
+  display:block;
+ text-align: center;
+  margin-top:20px;
+}
+
+.social-media i{
+  color: #808080;
+  margin: 0 5px;
+  font-size: 20px;
+  padding: 8px;
+  border: 1px solid;
+  width: 40px;
+  border-radius: 25%;
+}
+
+.social-media i:hover{
+  color: #fff;
+  background-color: #3D3D3D
+}
+
+.menu {
+  background-color: #808080;
+  width:100%
+}
+
+.menu ul{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+
+.menu ul li{
+  padding: 15px 20px;
+  cursor:pointer;
+  color:white
+}
+
+.menu ul li:hover{
+  background-color:#3D3D3D;
+}
+
+.button-collapse {
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 750px){
+  .hide-on-med-and-down {
+    display: none;
+  }
+
+  .button-collapse {
+    display:block;
+  }
+}
+
+
+@media screen and (min-width: 750px){
+  .hide-on-med-and-down {
+    display: flex!important;
+  }
+
+  .button-collapse {
+    display:none;
+  }
+}
+
+footer .footer-content{
+  padding: 30px 0;
+  color:white;
+  background-color: #808080;
+  margin-bottom:0 !important;
+}
+
+footer .contact-details p{
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+footer .horaires p {
+  margin-left: 20px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+footer .contact-details i{
+  width: 20px;
+  margin-right: 5px;
+}
+
+footer h4 {
+  margin-bottom: 30px;
+}
+
+
+.bottom-banner {
+  background-color: #3D3D3D;
+  color:white;
+  padding: 10px 0;
+}
+
+.bottom-banner p{
+ margin: 0;
+}
+
+.contact-details a:hover {
+  opacity: 0.8;
+}
