@@ -1,0 +1,66 @@
+.centerImg{
+  text-align: center;
+}
+
+.textImgCenter{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+div .row{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marginBottomS{
+  margin-bottom: 10px;
+}
+
+.marginTopS{
+  margin-top: 10px;
+}
+
+@media only screen and (min-height: 601px){
+  .justify{
+    text-align: justify;
+    padding-top: 40px;
+  }
+}
+
+.row-images {
+   display:flex;
+   justify-content:center;
+  margin: 20px 0 30px;
+ }
+
+.row-images img {
+  margin: 0px 10px;
+}
+
+.responsive-img-same-height{
+  height: 50vh;
+}
+
+.responsive-img-width-50{
+  max-width: 50%;
+}
+
+.step {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(80,80,80,0.1);
+}
+
+.grey-bg {
+  background-color: rgba(80,80,80,0.1);
+  padding: 30px;
+}
+
+.steps i {
+  font-size:18px;
+}
+
+.examen-steps li {
+  margin-top: 10px;
+}

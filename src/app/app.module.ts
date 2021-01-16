@@ -6,10 +6,11 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CabinetComponent } from './cabinet/cabinet.component';
-import { PedicurieComponent } from "./pedicurie/pedicurie.component";
+import { PedicurieComponent } from './pedicurie/pedicurie.component';
 import { PodologieComponent } from './podologie/podologie.component';
-import { PodologiePediatriqueComponent } from "./podologie-pediatrique/podologie-pediatrique.component";
-import { PodologieSportComponent } from "./podologie-sport/podologie-sport.component";
+import { PodologiePediatriqueComponent } from './podologie-pediatrique/podologie-pediatrique.component';
+import { PodologieSportComponent } from './podologie-sport/podologie-sport.component';
+import {PosturogolieComponent} from './posturologie/posturologie.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PodologieSportComponent } from "./podologie-sport/podologie-sport.compo
     PedicurieComponent,
     PodologieComponent,
     PodologiePediatriqueComponent,
-    PodologieSportComponent
+    PodologieSportComponent,
+    PosturogolieComponent,
   ],
   imports: [
     BrowserModule,
